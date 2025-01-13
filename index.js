@@ -1,7 +1,6 @@
+import util from "./util/index";
+export default {
+    util
+}
 
-import { NativeModules } from 'react-native';
-
-const { RNLxa } = NativeModules;
-
-
-export default RNLxa;
+util.getDegree("1000")
