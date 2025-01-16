@@ -1,15 +1,15 @@
 {
   "name": "react-native-lxa",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "react-native-lxa",
     "lxa",
-    "react-native",
-    "react-native-lxa"
+    "react-native"
   ],
   "author": "smallLi",
   "license": "MIT",
@@ -17,8 +17,16 @@
     "type": "git",
     "url": "https://github.com/SmaLi-cloud/react-native-lxa.git"
   },
+  "bugs": {
+    "url": "https://github.com/SmaLi-cloud/react-native-lxa/issues"
+  },
   "homepage": "https://github.com/SmaLi-cloud/react-native-lxa#readme",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react": "*",
+    "react-native": "*",
+    "react-native-tiny-toast": "*",
+    "moment": "*",
+    "crypto-js":"*",
+    "lodash":"*"
   }
 }

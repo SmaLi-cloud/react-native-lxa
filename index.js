@@ -1,6 +1,9 @@
 import util from "./util/index";
-export default {
-    util
-}
+import ShapeClassListView from "./src/components/ShapeClassListView";
 
-util.getDegree("1000")
+
+
+export default {
+    util,
+    ShapeClassListView
+} 

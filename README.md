@@ -12,6 +12,14 @@
 ### Manual installation
 
 
+## Usage
+```javascript
+import RNLxa from 'react-native-lxa';
+
+// TODO: What to do with the module?
+RNLxa;
+```
+
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
@@ -33,21 +41,4 @@
   	```
       compile project(':react-native-lxa')
   	```
-
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNLxa.sln` in `node_modules/react-native-lxa/windows/RNLxa.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Lxa.RNLxa;` to the usings at the top of the file
-  - Add `new RNLxaPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
-## Usage
-```javascript
-import RNLxa from 'react-native-lxa';
-
-// TODO: What to do with the module?
-RNLxa;
-```
   
